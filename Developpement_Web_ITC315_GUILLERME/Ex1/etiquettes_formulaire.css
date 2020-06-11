@@ -1,0 +1,18 @@
+h1 {
+font-size: 18pt; /*Met le titre à la taille de police 18 pt*/
+}
+label
+{
+width: 100px; /*Passe la taille du label à 100 pixel*/
+text-align: right; /*Aligne le label à droite */
+display: inline-block; /*utiliser pour appliquer le vertical-align*/
+vertical-align: baseline /*alignement vertical basique*/
+}
+
+@media only screen and (max-width: 480px){
+	label{
+		width: 100px;
+		text-align: initial;
+		display: block;
+	}
+}	

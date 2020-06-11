@@ -1,0 +1,6 @@
+.animtest, .noanimtest { display: none;}/*n'affichage pas les ojets de type animetest et noanimtest*/
+.cssanimations .animtest { display:block;}/*les ojects de la classe cssanimations , animtest sont affiché en block */
+.no-cssanimations .noanimtest { display:block;}/*les ojects de la classe no-cssanimations et noanimtest on un affichage en block*/
+
+/*finalement tout est afficher en block, la première ligne n'est pas utile*/
+
